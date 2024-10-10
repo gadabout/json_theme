@@ -7114,7 +7114,9 @@ class ThemeEncoder {
         'buttonTheme': encodeButtonThemeData(value.buttonTheme),
         'canvasColor': encodeColor(value.canvasColor),
         'cardColor': encodeColor(value.cardColor),
-        'cardTheme': encodeCardTheme(value.cardTheme),
+        // FIXME: commenting next line out to get past
+        // https://github.com/peiffer-innovations/json_theme/issues/225
+        // 'cardTheme': encodeCardTheme(value.cardTheme),
         'checkboxTheme': encodeCheckboxThemeData(value.checkboxTheme),
         'chipTheme': encodeChipThemeData(value.chipTheme),
         'colorScheme': encodeColorScheme(value.colorScheme),
