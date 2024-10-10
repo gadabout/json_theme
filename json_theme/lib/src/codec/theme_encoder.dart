@@ -7191,7 +7191,9 @@ class ThemeEncoder {
         'splashFactory':
             encodeInteractiveInkFeatureFactory(value.splashFactory),
         'switchTheme': encodeSwitchThemeData(value.switchTheme),
-        'tabBarTheme': encodeTabBarTheme(value.tabBarTheme),
+        // FIXME: commenting next line out to get past
+        // https://github.com/peiffer-innovations/json_theme/issues/225
+        // 'tabBarTheme': encodeTabBarTheme(value.tabBarTheme),
         'textButtonTheme': encodeTextButtonThemeData(value.textButtonTheme),
         'textSelectionTheme': encodeTextSelectionThemeData(
           value.textSelectionTheme,
