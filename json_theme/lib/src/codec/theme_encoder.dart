@@ -7127,7 +7127,9 @@ class ThemeEncoder {
         'datePickerThemeData': encodeDatePickerThemeData(value.datePickerTheme),
         'dataTableTheme': encodeDataTableThemeData(value.dataTableTheme),
         'dialogBackgroundColor': encodeColor(value.dialogBackgroundColor),
-        'dialogTheme': encodeDialogTheme(value.dialogTheme),
+        // FIXME: commenting next line out to get past
+        // https://github.com/peiffer-innovations/json_theme/issues/225
+        // 'dialogTheme': encodeDialogTheme(value.dialogTheme),
         'disabledColor': encodeColor(value.disabledColor),
         'dividerColor': encodeColor(value.dividerColor),
         'dividerTheme': encodeDividerThemeData(value.dividerTheme),
