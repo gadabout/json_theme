@@ -2171,9 +2171,9 @@ class ThemeEncoder {
 
     if (value != null) {
       result = {
-        'inputDecorationTheme': encodeInputDecorationTheme(
-          value.inputDecorationTheme,
-        ),
+        // 'inputDecorationTheme': encodeInputDecorationTheme(
+        //   value.inputDecorationTheme,
+        // ),
         'menuStyle': encodeMenuStyle(value.menuStyle),
         'textStyle': encodeTextStyle(value.textStyle),
       };
