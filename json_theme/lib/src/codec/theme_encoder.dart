@@ -5270,6 +5270,8 @@ class ThemeEncoder {
         case ShowValueIndicator.onlyForDiscrete:
           result = 'onlyForDiscrete';
           break;
+        default:
+          break;
       }
     }
 
