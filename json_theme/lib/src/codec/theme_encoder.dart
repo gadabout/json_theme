@@ -6876,7 +6876,7 @@ class ThemeEncoder {
         'applyElevationOverlayColor': value.applyElevationOverlayColor,
         'badgeTheme': encodeBadgeThemeData(value.badgeTheme),
         'bannerTheme': encodeMaterialBannerThemeData(value.bannerTheme),
-        'bottomAppBarTheme': encodeBottomAppBarTheme(value.bottomAppBarTheme),
+        // 'bottomAppBarTheme': encodeBottomAppBarTheme(value.bottomAppBarTheme),
         'bottomNavigationBarTheme': encodeBottomNavigationBarThemeData(
           value.bottomNavigationBarTheme,
         ),
