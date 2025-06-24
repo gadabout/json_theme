@@ -6872,7 +6872,7 @@ class ThemeEncoder {
     if (value != null) {
       result = <String, dynamic>{
         'actionIconTheme': encodeActionIconThemeData(value.actionIconTheme),
-        'appBarTheme': encodeAppBarTheme(value.appBarTheme),
+        // 'appBarTheme': encodeAppBarTheme(value.appBarTheme),
         'applyElevationOverlayColor': value.applyElevationOverlayColor,
         'badgeTheme': encodeBadgeThemeData(value.badgeTheme),
         'bannerTheme': encodeMaterialBannerThemeData(value.bannerTheme),
