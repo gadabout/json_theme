@@ -6926,9 +6926,9 @@ class ThemeEncoder {
         'iconButtonTheme': encodeIconButtonThemeData(value.iconButtonTheme),
         'iconTheme': encodeIconThemeData(value.iconTheme),
         'indicatorColor': encodeColor(value.indicatorColor),
-        'inputDecorationTheme': encodeInputDecorationTheme(
-          value.inputDecorationTheme,
-        ),
+        // 'inputDecorationTheme': encodeInputDecorationTheme(
+        //   value.inputDecorationTheme,
+        // ),
         'listTileTheme': encodeListTileThemeData(value.listTileTheme),
         'materialTapTargetSize': encodeMaterialTapTargetSize(
           value.materialTapTargetSize,
