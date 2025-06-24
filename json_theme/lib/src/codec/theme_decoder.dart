@@ -11259,7 +11259,7 @@ class ThemeDecoder {
           value['dialogBackgroundColor'],
           validate: false,
         ),
-        dialogTheme: decodeDialogTheme(value['dialogTheme'], validate: false),
+        // dialogTheme: decodeDialogTheme(value['dialogTheme'], validate: false),
         disabledColor: decodeColor(value['disabledColor'], validate: false),
         dividerColor: decodeColor(value['dividerColor'], validate: false),
         dividerTheme: decodeDividerThemeData(
